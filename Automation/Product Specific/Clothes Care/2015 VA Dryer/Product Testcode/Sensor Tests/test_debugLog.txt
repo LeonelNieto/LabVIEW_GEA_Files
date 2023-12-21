@@ -1,0 +1,105 @@
+10:27:19.495
+E3-> Key Press: 0012
+
+10:27:19.808
+E4-Machine Standby
+
+10:27:19.895
+E5-Selected Cycle 0001
+
+10:27:24.694
+E6-> Key Press: 0013
+
+10:27:24.848
+E7->Machine Run
+
+10:27:24.898
+E8->Model: 0002
+
+10:27:24.932
+E9->Cap Index: 0001
+
+10:27:25.008
+EA->SW,XML Ver,EE Ver: 0003.0017, 0003.0037, 0001.0003
+
+10:27:25.109
+EB-Current primitive: Sensor Dry
+
+10:27:25.204
+EC->Step ID: 0001
+
+10:27:25.302
+ED->Base Cycle Index: 0001
+
+10:27:25.334
+EE-DOD Index 0014
+
+10:27:25.403
+EF-Init TV 4500
+
+10:27:25.508
+F0->ECT In Min: 0020
+
+10:27:25.604
+F1-Strt Tmble Prof:0003
+
+10:27:25.641
+F2-TmbleStepID:0002
+
+10:27:25.706
+F3-CCWDuration:0540
+
+10:27:25.728
+F4-StrtDrum
+
+10:27:25.804
+F5->TEMP/DRY:0002 0001
+
+10:27:25.901
+F6-GV Outlet SP : Hi-0116 Lo-0115
+
+10:27:26.004
+F7-GV Inlet SP : Hi-0210 Lo-0207
+
+10:27:26.107
+F8-new heat:0002
+
+10:27:26.204
+F9-GV Outlet SP : Hi-0116 Lo-0115
+
+10:27:26.307
+FA-GV Inlet SP : Hi-0210 Lo-0207
+
+10:27:26.403
+FB-OC ON Avgin:0070 out:0075
+
+10:27:26.501
+FC-Drum Rly ON
+
+10:27:26.535
+FD-Strt Drum Ack
+
+10:27:26.605
+FE-DL Disbld_Cycle
+
+10:27:26.702
+FF-0536  0000  0075  0070
+
+10:27:26.805
+00-Htr Inh = 0000
+
+10:27:26.846
+01-GR-ON
+
+10:27:26.907
+02-> Key Press: 0012
+
+10:27:26.931
+03->Machine Idle
+
+10:27:27.004
+04-OC OFF Avgin:0070 out:0075
+
+10:27:27.098
+05-Drum Rly OFF
+

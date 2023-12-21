@@ -1,0 +1,2003 @@
+
+
+#Test - Personality test
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6
+ERDWRITE[E4,23,F000(uint8_t:7)]-w 5; % Set personality to 7
+ERDREAD[E4,23,F000(uint8_t:7)] -w 1 -c yes; %CONFIRM Personality 7
+ERDWRITE[E4,23,F000(uint8_t:6)]-w 5; % Set personality to 6
+ERDREAD[E4,23,F000(uint8_t:6)] -w 1 -c yes; %CONFIRM Personality 6

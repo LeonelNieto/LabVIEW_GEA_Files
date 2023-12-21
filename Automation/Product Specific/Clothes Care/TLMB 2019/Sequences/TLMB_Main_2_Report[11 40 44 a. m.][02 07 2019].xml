@@ -1,0 +1,2147 @@
+<?xml version="1.0" encoding="iso-8859-1" ?><?xml-stylesheet type="text/xsl" href="C:\Program Files\National Instruments\TestStand 2019\Components\Models\TestStandModels\ATML\StyleSheets\tr5_horizontal.xsl"?>
+
+<trc:TestResultsCollection xmlns:trc="urn:IEEE-1636.1:2011:01:TestResultsCollection" xmlns:tr="urn:IEEE-1636.1:2011:01:TestResults" xmlns:c="urn:IEEE-1671:2010:Common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ts="www.ni.com/TestStand/ATMLTestResults/2.0">
+<trc:TestResults uuid="5e9185dd-9ce8-11e9-87b1-f0d5bf453e49" xmlns:trc="urn:IEEE-1636.1:2011:01:TestResultsCollection" xmlns:tr="urn:IEEE-1636.1:2011:01:TestResults" xmlns:c="urn:IEEE-1671:2010:Common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ts="www.ni.com/TestStand/ATMLTestResults/2.0">
+	<tr:Personnel>
+		<tr:SystemOperator ID = "administrator" name = "administrator"/>
+	</tr:Personnel>
+	<tr:ResultSet ID="447" name = "D:\Automation\Product Specific\Clothes Care\TLMB 2019\Sequences\TLMB_Main_2.seq#MainSequence" startDateTime = "2019-07-02T11:40:44.461" endDateTime = "2019-07-02T11:42:25.212">
+		<tr:Extension>
+			<ts:TSStepProperties>
+				<ts:StepType>SequenceCall</ts:StepType>
+				<ts:StepGroup>Main</ts:StepGroup>
+				<ts:BlockLevel value='0'/>
+				<ts:Index value='8'/>
+				<ts:TotalTime value='100.752'/>
+				<ts:ModuleTime value='100.751'/>
+			</ts:TSStepProperties>
+		</tr:Extension>
+		<tr:Outcome value="Passed" />
+		<tr:Test ID = "448" name = "Parse Configuration File" startDateTime = "2019-07-02T11:40:44.501"  endDateTime = "2019-07-02T11:40:44.505"  testReferenceID="ID#:w254qUwA6BGwSNj8kylYcD">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>PassFailTest</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='0'/>
+					<ts:TotalTime value='0.0037269'/>
+					<ts:ModuleTime value='0.0035226'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:Outcome value = "Passed" />
+		</tr:Test>
+		<tr:SessionAction ID = "449" name = "If" startDateTime = "2019-07-02T11:40:44.512"  endDateTime = "2019-07-02T11:40:44.512"  testReferenceID="ID#:0fTFDDlL6RGHaPDVv0U+SB">
+			<tr:Data>
+				<c:Collection>
+					<c:Item name = "ReportText">
+						<c:Datum xsi:type="ts:TS_string" flags = "0x400000">
+							<c:Value>{False}</c:Value>
+						</c:Datum>
+					</c:Item>
+				</c:Collection>
+			</tr:Data>
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>NI_Flow_If</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='2'/>
+					<ts:TotalTime value='5.72e-05'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "450" name = "Else" startDateTime = "2019-07-02T11:40:44.514"  endDateTime = "2019-07-02T11:40:44.514"  testReferenceID="ID#:1/TFDDlL6RGHaPDVv0U+SB">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>NI_Flow_Else</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='8'/>
+					<ts:TotalTime value='2.47e-05'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:Test ID = "451" name = "Manually Select APP .apl" startDateTime = "2019-07-02T11:40:44.516"  endDateTime = "2019-07-02T11:40:44.516"  testReferenceID="ID#:2PTFDDlL6RGHaPDVv0U+SB">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>Action</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='1'/>
+					<ts:Index value='9'/>
+					<ts:TotalTime value='1.19e-05'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:Outcome value = "UserDefined" qualifier= "Skipped" />
+		</tr:Test>
+		<tr:Test ID = "452" name = "Manually Select System XML .apl" startDateTime = "2019-07-02T11:40:44.517"  endDateTime = "2019-07-02T11:40:44.517"  testReferenceID="ID#:2fTFDDlL6RGHaPDVv0U+SB">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>Action</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='1'/>
+					<ts:Index value='10'/>
+					<ts:TotalTime value='2.65e-05'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:Outcome value = "UserDefined" qualifier= "Skipped" />
+		</tr:Test>
+		<tr:SessionAction ID = "453" name = "End" startDateTime = "2019-07-02T11:40:44.520"  endDateTime = "2019-07-02T11:40:44.520"  testReferenceID="ID#:4fTFDDlL6RGHaPDVv0U+SB">
+			<tr:Data>
+				<c:Collection>
+					<c:Item name = "ReportText">
+						<c:Datum xsi:type="ts:TS_string" flags = "0x400000">
+							<c:Value>(If)</c:Value>
+						</c:Datum>
+					</c:Item>
+				</c:Collection>
+			</tr:Data>
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>NI_Flow_End</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='11'/>
+					<ts:TotalTime value='4.39e-05'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "454" name = "If" startDateTime = "2019-07-02T11:40:44.521"  endDateTime = "2019-07-02T11:40:44.521"  testReferenceID="ID#:uTmHlBZM6RGHaPDVv0U+SB">
+			<tr:Data>
+				<c:Collection>
+					<c:Item name = "ReportText">
+						<c:Datum xsi:type="ts:TS_string" flags = "0x400000">
+							<c:Value>{True}</c:Value>
+						</c:Datum>
+					</c:Item>
+				</c:Collection>
+			</tr:Data>
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>NI_Flow_If</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='12'/>
+					<ts:TotalTime value='5.25e-05'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "455" name = "Initialize Washer GEA3" startDateTime = "2019-07-02T11:40:44.524"  endDateTime = "2019-07-02T11:40:44.533"  testReferenceID="ID#:kANivhRM6RGHaPDVv0U+SB">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>Action</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='1'/>
+					<ts:Index value='13'/>
+					<ts:TotalTime value='0.0091132'/>
+					<ts:ModuleTime value='0.0089429'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "456" name = "Wait" startDateTime = "2019-07-02T11:40:44.534"  endDateTime = "2019-07-02T11:40:54.534"  testReferenceID="ID#:vDmHlBZM6RGHaPDVv0U+SB">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>NI_Wait</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='1'/>
+					<ts:Index value='14'/>
+					<ts:TotalTime value='10.0006'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:Test ID = "457" name = "Exit Low Power mode" startDateTime = "2019-07-02T11:40:54.537"  endDateTime = "2019-07-02T11:40:55.757"  testReferenceID="ID#:nC7WtiVM6RGHaPDVv0U+SB">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>PassFailTest</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='1'/>
+					<ts:Index value='15'/>
+					<ts:TotalTime value='1.22018'/>
+					<ts:ModuleTime value='1.21966'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:Outcome value = "Passed" />
+		</tr:Test>
+		<tr:SessionAction ID = "458" name = "End" startDateTime = "2019-07-02T11:40:55.759"  endDateTime = "2019-07-02T11:40:55.759"  testReferenceID="ID#:vjmHlBZM6RGHaPDVv0U+SB">
+			<tr:Data>
+				<c:Collection>
+					<c:Item name = "ReportText">
+						<c:Datum xsi:type="ts:TS_string" flags = "0x400000">
+							<c:Value>(If)</c:Value>
+						</c:Datum>
+					</c:Item>
+				</c:Collection>
+			</tr:Data>
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>NI_Flow_End</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='16'/>
+					<ts:TotalTime value='0.0001353'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "459" name = "Confirm a personality is set" startDateTime = "2019-07-02T11:40:55.763"  endDateTime = "2019-07-02T11:40:55.772"  testReferenceID="ID#:FSIWRMdM6RGHafDVv0U+SB">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>Action</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='17'/>
+					<ts:TotalTime value='0.00832'/>
+					<ts:ModuleTime value='0.0079688'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "460" name = "If" startDateTime = "2019-07-02T11:40:55.774"  endDateTime = "2019-07-02T11:40:55.774"  testReferenceID="ID#:AHAx2chM6RGHafDVv0U+SB">
+			<tr:Data>
+				<c:Collection>
+					<c:Item name = "ReportText">
+						<c:Datum xsi:type="ts:TS_string" flags = "0x400000">
+							<c:Value>{False}</c:Value>
+						</c:Datum>
+					</c:Item>
+				</c:Collection>
+			</tr:Data>
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>NI_Flow_If</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='18'/>
+					<ts:TotalTime value='0.0001967'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "461" name = "End" startDateTime = "2019-07-02T11:40:55.778"  endDateTime = "2019-07-02T11:40:55.778"  testReferenceID="ID#:EdW+SexM6RGHafDVv0U+SB">
+			<tr:Data>
+				<c:Collection>
+					<c:Item name = "ReportText">
+						<c:Datum xsi:type="ts:TS_string" flags = "0x400000">
+							<c:Value>(If)</c:Value>
+						</c:Datum>
+					</c:Item>
+				</c:Collection>
+			</tr:Data>
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>NI_Flow_End</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='21'/>
+					<ts:TotalTime value='0.0001374'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "462" name = "For" startDateTime = "2019-07-02T11:40:55.784"  endDateTime = "2019-07-02T11:40:55.784"  testReferenceID="ID#:GKULCSGc6RGHsfDVv0U+SB">
+			<tr:Data>
+				<c:Collection>
+					<c:Item name = "ReportText">
+						<c:Datum xsi:type="ts:TS_string" flags = "0x400000">
+							<c:Value><![CDATA[{0} Locals.Loop = 0; Locals.Loop < 14; Locals.Loop += 1]]></c:Value>
+						</c:Datum>
+					</c:Item>
+				</c:Collection>
+			</tr:Data>
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>NI_Flow_For</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='22'/>
+					<ts:TotalTime value='0.000585'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "463" name = "Select Cycle 1" startDateTime = "2019-07-02T11:40:55.788"  endDateTime = "2019-07-02T11:40:56.805"  testReferenceID="ID#:8LhULiGc6RGHsfDVv0U+SB">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>Action</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='1'/>
+					<ts:Index value='23'/>
+					<ts:TotalTime value='1.01619'/>
+					<ts:ModuleTime value='1.01586'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "464" name = "End" startDateTime = "2019-07-02T11:40:56.810"  endDateTime = "2019-07-02T11:40:56.810"  testReferenceID="ID#:GqULCSGc6RGHsfDVv0U+SB">
+			<tr:Data>
+				<c:Collection>
+					<c:Item name = "ReportText">
+						<c:Datum xsi:type="ts:TS_string" flags = "0x400000">
+							<c:Value>(For)</c:Value>
+						</c:Datum>
+					</c:Item>
+				</c:Collection>
+			</tr:Data>
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>NI_Flow_End</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='24'/>
+					<ts:TotalTime value='9.94e-05'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "465" name = "For" startDateTime = "2019-07-02T11:40:56.829"  endDateTime = "2019-07-02T11:40:56.829"  testReferenceID="ID#:GKULCSGc6RGHsfDVv0U+SB">
+			<tr:Data>
+				<c:Collection>
+					<c:Item name = "ReportText">
+						<c:Datum xsi:type="ts:TS_string" flags = "0x400000">
+							<c:Value><![CDATA[{1} Locals.Loop = 0; Locals.Loop < 14; Locals.Loop += 1]]></c:Value>
+						</c:Datum>
+					</c:Item>
+				</c:Collection>
+			</tr:Data>
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>NI_Flow_For</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='22'/>
+					<ts:TotalTime value='0.0003409'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "466" name = "Select Cycle 1" startDateTime = "2019-07-02T11:40:56.834"  endDateTime = "2019-07-02T11:40:57.850"  testReferenceID="ID#:8LhULiGc6RGHsfDVv0U+SB">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>Action</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='1'/>
+					<ts:Index value='23'/>
+					<ts:TotalTime value='1.01532'/>
+					<ts:ModuleTime value='1.01494'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "467" name = "End" startDateTime = "2019-07-02T11:40:57.855"  endDateTime = "2019-07-02T11:40:57.855"  testReferenceID="ID#:GqULCSGc6RGHsfDVv0U+SB">
+			<tr:Data>
+				<c:Collection>
+					<c:Item name = "ReportText">
+						<c:Datum xsi:type="ts:TS_string" flags = "0x400000">
+							<c:Value>(For)</c:Value>
+						</c:Datum>
+					</c:Item>
+				</c:Collection>
+			</tr:Data>
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>NI_Flow_End</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='24'/>
+					<ts:TotalTime value='0.0006929'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "468" name = "For" startDateTime = "2019-07-02T11:40:57.877"  endDateTime = "2019-07-02T11:40:57.877"  testReferenceID="ID#:GKULCSGc6RGHsfDVv0U+SB">
+			<tr:Data>
+				<c:Collection>
+					<c:Item name = "ReportText">
+						<c:Datum xsi:type="ts:TS_string" flags = "0x400000">
+							<c:Value><![CDATA[{2} Locals.Loop = 0; Locals.Loop < 14; Locals.Loop += 1]]></c:Value>
+						</c:Datum>
+					</c:Item>
+				</c:Collection>
+			</tr:Data>
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>NI_Flow_For</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='22'/>
+					<ts:TotalTime value='0.0002812'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "469" name = "Select Cycle 1" startDateTime = "2019-07-02T11:40:57.882"  endDateTime = "2019-07-02T11:40:58.895"  testReferenceID="ID#:8LhULiGc6RGHsfDVv0U+SB">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>Action</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='1'/>
+					<ts:Index value='23'/>
+					<ts:TotalTime value='1.01291'/>
+					<ts:ModuleTime value='1.01253'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "470" name = "End" startDateTime = "2019-07-02T11:40:58.897"  endDateTime = "2019-07-02T11:40:58.897"  testReferenceID="ID#:GqULCSGc6RGHsfDVv0U+SB">
+			<tr:Data>
+				<c:Collection>
+					<c:Item name = "ReportText">
+						<c:Datum xsi:type="ts:TS_string" flags = "0x400000">
+							<c:Value>(For)</c:Value>
+						</c:Datum>
+					</c:Item>
+				</c:Collection>
+			</tr:Data>
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>NI_Flow_End</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='24'/>
+					<ts:TotalTime value='6.02e-05'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "471" name = "For" startDateTime = "2019-07-02T11:40:58.905"  endDateTime = "2019-07-02T11:40:58.906"  testReferenceID="ID#:GKULCSGc6RGHsfDVv0U+SB">
+			<tr:Data>
+				<c:Collection>
+					<c:Item name = "ReportText">
+						<c:Datum xsi:type="ts:TS_string" flags = "0x400000">
+							<c:Value><![CDATA[{3} Locals.Loop = 0; Locals.Loop < 14; Locals.Loop += 1]]></c:Value>
+						</c:Datum>
+					</c:Item>
+				</c:Collection>
+			</tr:Data>
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>NI_Flow_For</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='22'/>
+					<ts:TotalTime value='0.0001754'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "472" name = "Select Cycle 1" startDateTime = "2019-07-02T11:40:58.908"  endDateTime = "2019-07-02T11:40:59.917"  testReferenceID="ID#:8LhULiGc6RGHsfDVv0U+SB">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>Action</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='1'/>
+					<ts:Index value='23'/>
+					<ts:TotalTime value='1.00963'/>
+					<ts:ModuleTime value='1.00932'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "473" name = "End" startDateTime = "2019-07-02T11:40:59.922"  endDateTime = "2019-07-02T11:40:59.922"  testReferenceID="ID#:GqULCSGc6RGHsfDVv0U+SB">
+			<tr:Data>
+				<c:Collection>
+					<c:Item name = "ReportText">
+						<c:Datum xsi:type="ts:TS_string" flags = "0x400000">
+							<c:Value>(For)</c:Value>
+						</c:Datum>
+					</c:Item>
+				</c:Collection>
+			</tr:Data>
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>NI_Flow_End</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='24'/>
+					<ts:TotalTime value='0.0001088'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "474" name = "For" startDateTime = "2019-07-02T11:40:59.943"  endDateTime = "2019-07-02T11:40:59.943"  testReferenceID="ID#:GKULCSGc6RGHsfDVv0U+SB">
+			<tr:Data>
+				<c:Collection>
+					<c:Item name = "ReportText">
+						<c:Datum xsi:type="ts:TS_string" flags = "0x400000">
+							<c:Value><![CDATA[{4} Locals.Loop = 0; Locals.Loop < 14; Locals.Loop += 1]]></c:Value>
+						</c:Datum>
+					</c:Item>
+				</c:Collection>
+			</tr:Data>
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>NI_Flow_For</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='22'/>
+					<ts:TotalTime value='0.0003294'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "475" name = "Select Cycle 1" startDateTime = "2019-07-02T11:40:59.948"  endDateTime = "2019-07-02T11:41:00.962"  testReferenceID="ID#:8LhULiGc6RGHsfDVv0U+SB">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>Action</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='1'/>
+					<ts:Index value='23'/>
+					<ts:TotalTime value='1.01425'/>
+					<ts:ModuleTime value='1.01393'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "476" name = "End" startDateTime = "2019-07-02T11:41:00.967"  endDateTime = "2019-07-02T11:41:00.967"  testReferenceID="ID#:GqULCSGc6RGHsfDVv0U+SB">
+			<tr:Data>
+				<c:Collection>
+					<c:Item name = "ReportText">
+						<c:Datum xsi:type="ts:TS_string" flags = "0x400000">
+							<c:Value>(For)</c:Value>
+						</c:Datum>
+					</c:Item>
+				</c:Collection>
+			</tr:Data>
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>NI_Flow_End</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='24'/>
+					<ts:TotalTime value='9.9e-05'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "477" name = "For" startDateTime = "2019-07-02T11:41:00.987"  endDateTime = "2019-07-02T11:41:00.987"  testReferenceID="ID#:GKULCSGc6RGHsfDVv0U+SB">
+			<tr:Data>
+				<c:Collection>
+					<c:Item name = "ReportText">
+						<c:Datum xsi:type="ts:TS_string" flags = "0x400000">
+							<c:Value><![CDATA[{5} Locals.Loop = 0; Locals.Loop < 14; Locals.Loop += 1]]></c:Value>
+						</c:Datum>
+					</c:Item>
+				</c:Collection>
+			</tr:Data>
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>NI_Flow_For</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='22'/>
+					<ts:TotalTime value='0.0003959'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "478" name = "Select Cycle 1" startDateTime = "2019-07-02T11:41:00.992"  endDateTime = "2019-07-02T11:41:02.005"  testReferenceID="ID#:8LhULiGc6RGHsfDVv0U+SB">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>Action</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='1'/>
+					<ts:Index value='23'/>
+					<ts:TotalTime value='1.01294'/>
+					<ts:ModuleTime value='1.01263'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "479" name = "End" startDateTime = "2019-07-02T11:41:02.010"  endDateTime = "2019-07-02T11:41:02.010"  testReferenceID="ID#:GqULCSGc6RGHsfDVv0U+SB">
+			<tr:Data>
+				<c:Collection>
+					<c:Item name = "ReportText">
+						<c:Datum xsi:type="ts:TS_string" flags = "0x400000">
+							<c:Value>(For)</c:Value>
+						</c:Datum>
+					</c:Item>
+				</c:Collection>
+			</tr:Data>
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>NI_Flow_End</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='24'/>
+					<ts:TotalTime value='9.64e-05'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "480" name = "For" startDateTime = "2019-07-02T11:41:02.030"  endDateTime = "2019-07-02T11:41:02.030"  testReferenceID="ID#:GKULCSGc6RGHsfDVv0U+SB">
+			<tr:Data>
+				<c:Collection>
+					<c:Item name = "ReportText">
+						<c:Datum xsi:type="ts:TS_string" flags = "0x400000">
+							<c:Value><![CDATA[{6} Locals.Loop = 0; Locals.Loop < 14; Locals.Loop += 1]]></c:Value>
+						</c:Datum>
+					</c:Item>
+				</c:Collection>
+			</tr:Data>
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>NI_Flow_For</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='22'/>
+					<ts:TotalTime value='0.0003375'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "481" name = "Select Cycle 1" startDateTime = "2019-07-02T11:41:02.037"  endDateTime = "2019-07-02T11:41:03.054"  testReferenceID="ID#:8LhULiGc6RGHsfDVv0U+SB">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>Action</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='1'/>
+					<ts:Index value='23'/>
+					<ts:TotalTime value='1.01746'/>
+					<ts:ModuleTime value='1.01714'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "482" name = "End" startDateTime = "2019-07-02T11:41:03.060"  endDateTime = "2019-07-02T11:41:03.060"  testReferenceID="ID#:GqULCSGc6RGHsfDVv0U+SB">
+			<tr:Data>
+				<c:Collection>
+					<c:Item name = "ReportText">
+						<c:Datum xsi:type="ts:TS_string" flags = "0x400000">
+							<c:Value>(For)</c:Value>
+						</c:Datum>
+					</c:Item>
+				</c:Collection>
+			</tr:Data>
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>NI_Flow_End</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='24'/>
+					<ts:TotalTime value='0.0001353'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "483" name = "For" startDateTime = "2019-07-02T11:41:03.079"  endDateTime = "2019-07-02T11:41:03.079"  testReferenceID="ID#:GKULCSGc6RGHsfDVv0U+SB">
+			<tr:Data>
+				<c:Collection>
+					<c:Item name = "ReportText">
+						<c:Datum xsi:type="ts:TS_string" flags = "0x400000">
+							<c:Value><![CDATA[{7} Locals.Loop = 0; Locals.Loop < 14; Locals.Loop += 1]]></c:Value>
+						</c:Datum>
+					</c:Item>
+				</c:Collection>
+			</tr:Data>
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>NI_Flow_For</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='22'/>
+					<ts:TotalTime value='0.0003989'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "484" name = "Select Cycle 1" startDateTime = "2019-07-02T11:41:03.085"  endDateTime = "2019-07-02T11:41:04.099"  testReferenceID="ID#:8LhULiGc6RGHsfDVv0U+SB">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>Action</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='1'/>
+					<ts:Index value='23'/>
+					<ts:TotalTime value='1.0137'/>
+					<ts:ModuleTime value='1.01334'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "485" name = "End" startDateTime = "2019-07-02T11:41:04.103"  endDateTime = "2019-07-02T11:41:04.103"  testReferenceID="ID#:GqULCSGc6RGHsfDVv0U+SB">
+			<tr:Data>
+				<c:Collection>
+					<c:Item name = "ReportText">
+						<c:Datum xsi:type="ts:TS_string" flags = "0x400000">
+							<c:Value>(For)</c:Value>
+						</c:Datum>
+					</c:Item>
+				</c:Collection>
+			</tr:Data>
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>NI_Flow_End</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='24'/>
+					<ts:TotalTime value='9.13e-05'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "486" name = "For" startDateTime = "2019-07-02T11:41:04.123"  endDateTime = "2019-07-02T11:41:04.123"  testReferenceID="ID#:GKULCSGc6RGHsfDVv0U+SB">
+			<tr:Data>
+				<c:Collection>
+					<c:Item name = "ReportText">
+						<c:Datum xsi:type="ts:TS_string" flags = "0x400000">
+							<c:Value><![CDATA[{8} Locals.Loop = 0; Locals.Loop < 14; Locals.Loop += 1]]></c:Value>
+						</c:Datum>
+					</c:Item>
+				</c:Collection>
+			</tr:Data>
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>NI_Flow_For</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='22'/>
+					<ts:TotalTime value='0.0002897'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "487" name = "Select Cycle 1" startDateTime = "2019-07-02T11:41:04.128"  endDateTime = "2019-07-02T11:41:05.145"  testReferenceID="ID#:8LhULiGc6RGHsfDVv0U+SB">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>Action</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='1'/>
+					<ts:Index value='23'/>
+					<ts:TotalTime value='1.01745'/>
+					<ts:ModuleTime value='1.01714'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "488" name = "End" startDateTime = "2019-07-02T11:41:05.155"  endDateTime = "2019-07-02T11:41:05.155"  testReferenceID="ID#:GqULCSGc6RGHsfDVv0U+SB">
+			<tr:Data>
+				<c:Collection>
+					<c:Item name = "ReportText">
+						<c:Datum xsi:type="ts:TS_string" flags = "0x400000">
+							<c:Value>(For)</c:Value>
+						</c:Datum>
+					</c:Item>
+				</c:Collection>
+			</tr:Data>
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>NI_Flow_End</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='24'/>
+					<ts:TotalTime value='0.0002799'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "489" name = "For" startDateTime = "2019-07-02T11:41:05.176"  endDateTime = "2019-07-02T11:41:05.177"  testReferenceID="ID#:GKULCSGc6RGHsfDVv0U+SB">
+			<tr:Data>
+				<c:Collection>
+					<c:Item name = "ReportText">
+						<c:Datum xsi:type="ts:TS_string" flags = "0x400000">
+							<c:Value><![CDATA[{9} Locals.Loop = 0; Locals.Loop < 14; Locals.Loop += 1]]></c:Value>
+						</c:Datum>
+					</c:Item>
+				</c:Collection>
+			</tr:Data>
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>NI_Flow_For</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='22'/>
+					<ts:TotalTime value='0.0002935'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "490" name = "Select Cycle 1" startDateTime = "2019-07-02T11:41:05.181"  endDateTime = "2019-07-02T11:41:06.197"  testReferenceID="ID#:8LhULiGc6RGHsfDVv0U+SB">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>Action</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='1'/>
+					<ts:Index value='23'/>
+					<ts:TotalTime value='1.01604'/>
+					<ts:ModuleTime value='1.01557'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "491" name = "End" startDateTime = "2019-07-02T11:41:06.202"  endDateTime = "2019-07-02T11:41:06.202"  testReferenceID="ID#:GqULCSGc6RGHsfDVv0U+SB">
+			<tr:Data>
+				<c:Collection>
+					<c:Item name = "ReportText">
+						<c:Datum xsi:type="ts:TS_string" flags = "0x400000">
+							<c:Value>(For)</c:Value>
+						</c:Datum>
+					</c:Item>
+				</c:Collection>
+			</tr:Data>
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>NI_Flow_End</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='24'/>
+					<ts:TotalTime value='9.6e-05'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "492" name = "For" startDateTime = "2019-07-02T11:41:06.222"  endDateTime = "2019-07-02T11:41:06.222"  testReferenceID="ID#:GKULCSGc6RGHsfDVv0U+SB">
+			<tr:Data>
+				<c:Collection>
+					<c:Item name = "ReportText">
+						<c:Datum xsi:type="ts:TS_string" flags = "0x400000">
+							<c:Value><![CDATA[{10} Locals.Loop = 0; Locals.Loop < 14; Locals.Loop += 1]]></c:Value>
+						</c:Datum>
+					</c:Item>
+				</c:Collection>
+			</tr:Data>
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>NI_Flow_For</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='22'/>
+					<ts:TotalTime value='0.0002863'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "493" name = "Select Cycle 1" startDateTime = "2019-07-02T11:41:06.227"  endDateTime = "2019-07-02T11:41:07.242"  testReferenceID="ID#:8LhULiGc6RGHsfDVv0U+SB">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>Action</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='1'/>
+					<ts:Index value='23'/>
+					<ts:TotalTime value='1.01486'/>
+					<ts:ModuleTime value='1.01446'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "494" name = "End" startDateTime = "2019-07-02T11:41:07.248"  endDateTime = "2019-07-02T11:41:07.248"  testReferenceID="ID#:GqULCSGc6RGHsfDVv0U+SB">
+			<tr:Data>
+				<c:Collection>
+					<c:Item name = "ReportText">
+						<c:Datum xsi:type="ts:TS_string" flags = "0x400000">
+							<c:Value>(For)</c:Value>
+						</c:Datum>
+					</c:Item>
+				</c:Collection>
+			</tr:Data>
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>NI_Flow_End</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='24'/>
+					<ts:TotalTime value='9.86e-05'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "495" name = "For" startDateTime = "2019-07-02T11:41:07.268"  endDateTime = "2019-07-02T11:41:07.268"  testReferenceID="ID#:GKULCSGc6RGHsfDVv0U+SB">
+			<tr:Data>
+				<c:Collection>
+					<c:Item name = "ReportText">
+						<c:Datum xsi:type="ts:TS_string" flags = "0x400000">
+							<c:Value><![CDATA[{11} Locals.Loop = 0; Locals.Loop < 14; Locals.Loop += 1]]></c:Value>
+						</c:Datum>
+					</c:Item>
+				</c:Collection>
+			</tr:Data>
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>NI_Flow_For</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='22'/>
+					<ts:TotalTime value='0.0003081'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "496" name = "Select Cycle 1" startDateTime = "2019-07-02T11:41:07.272"  endDateTime = "2019-07-02T11:41:08.286"  testReferenceID="ID#:8LhULiGc6RGHsfDVv0U+SB">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>Action</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='1'/>
+					<ts:Index value='23'/>
+					<ts:TotalTime value='1.01388'/>
+					<ts:ModuleTime value='1.01358'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "497" name = "End" startDateTime = "2019-07-02T11:41:08.291"  endDateTime = "2019-07-02T11:41:08.291"  testReferenceID="ID#:GqULCSGc6RGHsfDVv0U+SB">
+			<tr:Data>
+				<c:Collection>
+					<c:Item name = "ReportText">
+						<c:Datum xsi:type="ts:TS_string" flags = "0x400000">
+							<c:Value>(For)</c:Value>
+						</c:Datum>
+					</c:Item>
+				</c:Collection>
+			</tr:Data>
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>NI_Flow_End</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='24'/>
+					<ts:TotalTime value='0.0001199'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "498" name = "For" startDateTime = "2019-07-02T11:41:08.311"  endDateTime = "2019-07-02T11:41:08.311"  testReferenceID="ID#:GKULCSGc6RGHsfDVv0U+SB">
+			<tr:Data>
+				<c:Collection>
+					<c:Item name = "ReportText">
+						<c:Datum xsi:type="ts:TS_string" flags = "0x400000">
+							<c:Value><![CDATA[{12} Locals.Loop = 0; Locals.Loop < 14; Locals.Loop += 1]]></c:Value>
+						</c:Datum>
+					</c:Item>
+				</c:Collection>
+			</tr:Data>
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>NI_Flow_For</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='22'/>
+					<ts:TotalTime value='0.0003503'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "499" name = "Select Cycle 1" startDateTime = "2019-07-02T11:41:08.317"  endDateTime = "2019-07-02T11:41:09.332"  testReferenceID="ID#:8LhULiGc6RGHsfDVv0U+SB">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>Action</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='1'/>
+					<ts:Index value='23'/>
+					<ts:TotalTime value='1.01453'/>
+					<ts:ModuleTime value='1.01421'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "500" name = "End" startDateTime = "2019-07-02T11:41:09.337"  endDateTime = "2019-07-02T11:41:09.337"  testReferenceID="ID#:GqULCSGc6RGHsfDVv0U+SB">
+			<tr:Data>
+				<c:Collection>
+					<c:Item name = "ReportText">
+						<c:Datum xsi:type="ts:TS_string" flags = "0x400000">
+							<c:Value>(For)</c:Value>
+						</c:Datum>
+					</c:Item>
+				</c:Collection>
+			</tr:Data>
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>NI_Flow_End</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='24'/>
+					<ts:TotalTime value='0.0001156'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "501" name = "For" startDateTime = "2019-07-02T11:41:09.361"  endDateTime = "2019-07-02T11:41:09.362"  testReferenceID="ID#:GKULCSGc6RGHsfDVv0U+SB">
+			<tr:Data>
+				<c:Collection>
+					<c:Item name = "ReportText">
+						<c:Datum xsi:type="ts:TS_string" flags = "0x400000">
+							<c:Value><![CDATA[{13} Locals.Loop = 0; Locals.Loop < 14; Locals.Loop += 1]]></c:Value>
+						</c:Datum>
+					</c:Item>
+				</c:Collection>
+			</tr:Data>
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>NI_Flow_For</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='22'/>
+					<ts:TotalTime value='0.0003388'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "502" name = "Select Cycle 1" startDateTime = "2019-07-02T11:41:09.368"  endDateTime = "2019-07-02T11:41:10.383"  testReferenceID="ID#:8LhULiGc6RGHsfDVv0U+SB">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>Action</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='1'/>
+					<ts:Index value='23'/>
+					<ts:TotalTime value='1.01502'/>
+					<ts:ModuleTime value='1.01468'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "503" name = "End" startDateTime = "2019-07-02T11:41:10.388"  endDateTime = "2019-07-02T11:41:10.388"  testReferenceID="ID#:GqULCSGc6RGHsfDVv0U+SB">
+			<tr:Data>
+				<c:Collection>
+					<c:Item name = "ReportText">
+						<c:Datum xsi:type="ts:TS_string" flags = "0x400000">
+							<c:Value>(For)</c:Value>
+						</c:Datum>
+					</c:Item>
+				</c:Collection>
+			</tr:Data>
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>NI_Flow_End</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='24'/>
+					<ts:TotalTime value='0.0001442'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:TestGroup name="D:\Automation\Product Specific\Clothes Care\TLMB 2019\Sequences\TLMB_Main_2.seq#Buttons - Power" ID="506" callerName='Button - Power' testReferenceID="ID#:fLSwRSOc6RGHsfDVv0U+SB" startDateTime = "2019-07-02T11:41:10.437"  endDateTime = "2019-07-02T11:42:25.040" >
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>SequenceCall</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='25'/>
+					<ts:TotalTime value='74.6034'/>
+					<ts:ModuleTime value='74.6032'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:Outcome value="Passed" />
+			<tr:TestGroup name="D:\Automation\Product Specific\Clothes Care\TLMB 2019\Sequences\TLMB_Main_2.seq#Process - Go to Idle" ID="507" callerName='Send MC to IDLE' testReferenceID="ID#:ivJY4Qdb6RGHa/DVv0U+SB" startDateTime = "2019-07-02T11:41:11.580"  endDateTime = "2019-07-02T11:41:12.785" >
+				<tr:Extension>
+					<ts:TSStepProperties>
+						<ts:StepType>SequenceCall</ts:StepType>
+						<ts:StepGroup>Main</ts:StepGroup>
+						<ts:BlockLevel value='0'/>
+						<ts:Index value='0'/>
+						<ts:TotalTime value='1.20518'/>
+						<ts:ModuleTime value='1.20508'/>
+					</ts:TSStepProperties>
+				</tr:Extension>
+				<tr:Outcome value="Passed" />
+				<tr:SessionAction ID = "508" name = "Check MC state" startDateTime = "2019-07-02T11:41:11.595"  endDateTime = "2019-07-02T11:41:11.601"  testReferenceID="ID#:oNHcbv1a6RGHa/DVv0U+SB">
+					<tr:Extension>
+						<ts:TSStepProperties>
+							<ts:StepType>Action</ts:StepType>
+							<ts:StepGroup>Setup</ts:StepGroup>
+							<ts:BlockLevel value='0'/>
+							<ts:Index value='0'/>
+							<ts:TotalTime value='0.0059814'/>
+							<ts:ModuleTime value='0.0058317'/>
+						</ts:TSStepProperties>
+					</tr:Extension>
+					<tr:ActionOutcome value = "Done" />
+				</tr:SessionAction>
+				<tr:SessionAction ID = "509" name = "If" startDateTime = "2019-07-02T11:41:11.607"  endDateTime = "2019-07-02T11:41:11.607"  testReferenceID="ID#:odHcbv1a6RGHa/DVv0U+SB">
+					<tr:Data>
+						<c:Collection>
+							<c:Item name = "ReportText">
+								<c:Datum xsi:type="ts:TS_string" flags = "0x400000">
+									<c:Value>{False}</c:Value>
+								</c:Datum>
+							</c:Item>
+						</c:Collection>
+					</tr:Data>
+					<tr:Extension>
+						<ts:TSStepProperties>
+							<ts:StepType>NI_Flow_If</ts:StepType>
+							<ts:StepGroup>Main</ts:StepGroup>
+							<ts:BlockLevel value='0'/>
+							<ts:Index value='0'/>
+							<ts:TotalTime value='0.0001609'/>
+						</ts:TSStepProperties>
+					</tr:Extension>
+					<tr:ActionOutcome value = "Done" />
+				</tr:SessionAction>
+				<tr:SessionAction ID = "510" name = "Else If" startDateTime = "2019-07-02T11:41:11.608"  endDateTime = "2019-07-02T11:41:11.608"  testReferenceID="ID#:o9Hcbv1a6RGHa/DVv0U+SB">
+					<tr:Data>
+						<c:Collection>
+							<c:Item name = "ReportText">
+								<c:Datum xsi:type="ts:TS_string" flags = "0x400000">
+									<c:Value>{True}</c:Value>
+								</c:Datum>
+							</c:Item>
+						</c:Collection>
+					</tr:Data>
+					<tr:Extension>
+						<ts:TSStepProperties>
+							<ts:StepType>NI_Flow_ElseIf</ts:StepType>
+							<ts:StepGroup>Main</ts:StepGroup>
+							<ts:BlockLevel value='0'/>
+							<ts:Index value='2'/>
+							<ts:TotalTime value='5.85e-05'/>
+						</ts:TSStepProperties>
+					</tr:Extension>
+					<tr:ActionOutcome value = "Done" />
+				</tr:SessionAction>
+				<tr:SessionAction ID = "511" name = "Press POWER key to send unit to IDLE" startDateTime = "2019-07-02T11:41:11.613"  endDateTime = "2019-07-02T11:41:12.260"  testReferenceID="ID#:pNHcbv1a6RGHa/DVv0U+SB">
+					<tr:Extension>
+						<ts:TSStepProperties>
+							<ts:StepType>Action</ts:StepType>
+							<ts:StepGroup>Main</ts:StepGroup>
+							<ts:BlockLevel value='1'/>
+							<ts:Index value='3'/>
+							<ts:TotalTime value='0.64738'/>
+							<ts:ModuleTime value='0.647126'/>
+						</ts:TSStepProperties>
+					</tr:Extension>
+					<tr:ActionOutcome value = "Done" />
+				</tr:SessionAction>
+				<tr:SessionAction ID = "512" name = "Wait" startDateTime = "2019-07-02T11:41:12.263"  endDateTime = "2019-07-02T11:41:12.764"  testReferenceID="ID#:pdHcbv1a6RGHa/DVv0U+SB">
+					<tr:Extension>
+						<ts:TSStepProperties>
+							<ts:StepType>NI_Wait</ts:StepType>
+							<ts:StepGroup>Main</ts:StepGroup>
+							<ts:BlockLevel value='1'/>
+							<ts:Index value='4'/>
+							<ts:TotalTime value='0.500656'/>
+						</ts:TSStepProperties>
+					</tr:Extension>
+					<tr:ActionOutcome value = "Done" />
+				</tr:SessionAction>
+				<tr:Test ID = "513" name = "Ensure IDLE state" startDateTime = "2019-07-02T11:41:12.766"  endDateTime = "2019-07-02T11:41:12.776"  testReferenceID="ID#:ptHcbv1a6RGHa/DVv0U+SB">
+					<tr:Extension>
+						<ts:TSStepProperties>
+							<ts:StepType>StringValueTest</ts:StepType>
+							<ts:StepGroup>Main</ts:StepGroup>
+							<ts:BlockLevel value='1'/>
+							<ts:Index value='5'/>
+							<ts:TotalTime value='0.0099592'/>
+							<ts:ModuleTime value='0.0094852'/>
+						</ts:TSStepProperties>
+					</tr:Extension>
+					<tr:Outcome value = "Passed" />
+					<tr:TestResult ID = "tr-5e9185d7-9ce8-11e9-87b1-f0d5bf453e49" name = "String">
+						<tr:TestData>
+							<c:Datum xsi:type="ts:TS_string" flags = "0x2400">
+								<c:Value>01</c:Value>
+							</c:Datum>
+						</tr:TestData>
+						<tr:TestLimits>
+							<tr:Limits>
+								<c:Expected comparator = "CIEQ">
+									<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+										<c:Value>01</c:Value>
+									</c:Datum>
+								</c:Expected>
+							</tr:Limits>
+						</tr:TestLimits>
+					</tr:TestResult>
+				</tr:Test>
+				<tr:SessionAction ID = "514" name = "End" startDateTime = "2019-07-02T11:41:12.779"  endDateTime = "2019-07-02T11:41:12.779"  testReferenceID="ID#:p9Hcbv1a6RGHa/DVv0U+SB">
+					<tr:Data>
+						<c:Collection>
+							<c:Item name = "ReportText">
+								<c:Datum xsi:type="ts:TS_string" flags = "0x400000">
+									<c:Value>(If)</c:Value>
+								</c:Datum>
+							</c:Item>
+						</c:Collection>
+					</tr:Data>
+					<tr:Extension>
+						<ts:TSStepProperties>
+							<ts:StepType>NI_Flow_End</ts:StepType>
+							<ts:StepGroup>Main</ts:StepGroup>
+							<ts:BlockLevel value='0'/>
+							<ts:Index value='6'/>
+							<ts:TotalTime value='0.0001109'/>
+						</ts:TSStepProperties>
+					</tr:Extension>
+					<tr:ActionOutcome value = "Done" />
+				</tr:SessionAction>
+			</tr:TestGroup>
+			<tr:SessionAction ID = "515" name = "Press POWER key" startDateTime = "2019-07-02T11:41:12.832"  endDateTime = "2019-07-02T11:41:13.472"  testReferenceID="ID#:i/JY4Qdb6RGHa/DVv0U+SB">
+				<tr:Extension>
+					<ts:TSStepProperties>
+						<ts:StepType>Action</ts:StepType>
+						<ts:StepGroup>Main</ts:StepGroup>
+						<ts:BlockLevel value='0'/>
+						<ts:Index value='1'/>
+						<ts:TotalTime value='0.639164'/>
+						<ts:ModuleTime value='0.63883'/>
+					</ts:TSStepProperties>
+				</tr:Extension>
+				<tr:ActionOutcome value = "Done" />
+			</tr:SessionAction>
+			<tr:SessionAction ID = "516" name = "Wait" startDateTime = "2019-07-02T11:41:13.474"  endDateTime = "2019-07-02T11:41:13.975"  testReferenceID="ID#:jPJY4Qdb6RGHa/DVv0U+SB">
+				<tr:Extension>
+					<ts:TSStepProperties>
+						<ts:StepType>NI_Wait</ts:StepType>
+						<ts:StepGroup>Main</ts:StepGroup>
+						<ts:BlockLevel value='0'/>
+						<ts:Index value='2'/>
+						<ts:TotalTime value='0.500549'/>
+					</ts:TSStepProperties>
+				</tr:Extension>
+				<tr:ActionOutcome value = "Done" />
+			</tr:SessionAction>
+			<tr:Test ID = "517" name = "Confirm STANDBY state" startDateTime = "2019-07-02T11:41:13.977"  endDateTime = "2019-07-02T11:41:13.987"  testReferenceID="ID#:jfJY4Qdb6RGHa/DVv0U+SB">
+				<tr:Extension>
+					<ts:TSStepProperties>
+						<ts:StepType>StringValueTest</ts:StepType>
+						<ts:StepGroup>Main</ts:StepGroup>
+						<ts:BlockLevel value='0'/>
+						<ts:Index value='3'/>
+						<ts:TotalTime value='0.0093244'/>
+						<ts:ModuleTime value='0.0088589'/>
+					</ts:TSStepProperties>
+				</tr:Extension>
+				<tr:Outcome value = "Passed" />
+				<tr:TestResult ID = "tr-5e9185d8-9ce8-11e9-87b1-f0d5bf453e49" name = "String">
+					<tr:TestData>
+						<c:Datum xsi:type="ts:TS_string" flags = "0x2400">
+							<c:Value>02</c:Value>
+						</c:Datum>
+					</tr:TestData>
+					<tr:TestLimits>
+						<tr:Limits>
+							<c:Expected comparator = "CIEQ">
+								<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+									<c:Value>02</c:Value>
+								</c:Datum>
+							</c:Expected>
+						</tr:Limits>
+					</tr:TestLimits>
+				</tr:TestResult>
+			</tr:Test>
+			<tr:TestGroup name="D:\Automation\Product Specific\Clothes Care\TLMB 2019\Sequences\TLMB_Main_2.seq#Process - Go to Idle" ID="518" callerName='Press POWER key to send to IDLE' testReferenceID="ID#:jvJY4Qdb6RGHa/DVv0U+SB" startDateTime = "2019-07-02T11:41:13.989"  endDateTime = "2019-07-02T11:41:15.250" >
+				<tr:Extension>
+					<ts:TSStepProperties>
+						<ts:StepType>SequenceCall</ts:StepType>
+						<ts:StepGroup>Main</ts:StepGroup>
+						<ts:BlockLevel value='0'/>
+						<ts:Index value='4'/>
+						<ts:TotalTime value='1.26112'/>
+						<ts:ModuleTime value='1.261'/>
+					</ts:TSStepProperties>
+				</tr:Extension>
+				<tr:Outcome value="Passed" />
+				<tr:SessionAction ID = "519" name = "Check MC state" startDateTime = "2019-07-02T11:41:14.036"  endDateTime = "2019-07-02T11:41:14.044"  testReferenceID="ID#:oNHcbv1a6RGHa/DVv0U+SB">
+					<tr:Extension>
+						<ts:TSStepProperties>
+							<ts:StepType>Action</ts:StepType>
+							<ts:StepGroup>Setup</ts:StepGroup>
+							<ts:BlockLevel value='0'/>
+							<ts:Index value='0'/>
+							<ts:TotalTime value='0.0077218'/>
+							<ts:ModuleTime value='0.0073796'/>
+						</ts:TSStepProperties>
+					</tr:Extension>
+					<tr:ActionOutcome value = "Done" />
+				</tr:SessionAction>
+				<tr:SessionAction ID = "520" name = "If" startDateTime = "2019-07-02T11:41:14.069"  endDateTime = "2019-07-02T11:41:14.069"  testReferenceID="ID#:odHcbv1a6RGHa/DVv0U+SB">
+					<tr:Data>
+						<c:Collection>
+							<c:Item name = "ReportText">
+								<c:Datum xsi:type="ts:TS_string" flags = "0x400000">
+									<c:Value>{False}</c:Value>
+								</c:Datum>
+							</c:Item>
+						</c:Collection>
+					</tr:Data>
+					<tr:Extension>
+						<ts:TSStepProperties>
+							<ts:StepType>NI_Flow_If</ts:StepType>
+							<ts:StepGroup>Main</ts:StepGroup>
+							<ts:BlockLevel value='0'/>
+							<ts:Index value='0'/>
+							<ts:TotalTime value='0.0001489'/>
+						</ts:TSStepProperties>
+					</tr:Extension>
+					<tr:ActionOutcome value = "Done" />
+				</tr:SessionAction>
+				<tr:SessionAction ID = "521" name = "Else If" startDateTime = "2019-07-02T11:41:14.083"  endDateTime = "2019-07-02T11:41:14.083"  testReferenceID="ID#:o9Hcbv1a6RGHa/DVv0U+SB">
+					<tr:Data>
+						<c:Collection>
+							<c:Item name = "ReportText">
+								<c:Datum xsi:type="ts:TS_string" flags = "0x400000">
+									<c:Value>{True}</c:Value>
+								</c:Datum>
+							</c:Item>
+						</c:Collection>
+					</tr:Data>
+					<tr:Extension>
+						<ts:TSStepProperties>
+							<ts:StepType>NI_Flow_ElseIf</ts:StepType>
+							<ts:StepGroup>Main</ts:StepGroup>
+							<ts:BlockLevel value='0'/>
+							<ts:Index value='2'/>
+							<ts:TotalTime value='0.0001284'/>
+						</ts:TSStepProperties>
+					</tr:Extension>
+					<tr:ActionOutcome value = "Done" />
+				</tr:SessionAction>
+				<tr:SessionAction ID = "522" name = "Press POWER key to send unit to IDLE" startDateTime = "2019-07-02T11:41:14.088"  endDateTime = "2019-07-02T11:41:14.731"  testReferenceID="ID#:pNHcbv1a6RGHa/DVv0U+SB">
+					<tr:Extension>
+						<ts:TSStepProperties>
+							<ts:StepType>Action</ts:StepType>
+							<ts:StepGroup>Main</ts:StepGroup>
+							<ts:BlockLevel value='1'/>
+							<ts:Index value='3'/>
+							<ts:TotalTime value='0.643025'/>
+							<ts:ModuleTime value='0.642686'/>
+						</ts:TSStepProperties>
+					</tr:Extension>
+					<tr:ActionOutcome value = "Done" />
+				</tr:SessionAction>
+				<tr:SessionAction ID = "523" name = "Wait" startDateTime = "2019-07-02T11:41:14.734"  endDateTime = "2019-07-02T11:41:15.234"  testReferenceID="ID#:pdHcbv1a6RGHa/DVv0U+SB">
+					<tr:Extension>
+						<ts:TSStepProperties>
+							<ts:StepType>NI_Wait</ts:StepType>
+							<ts:StepGroup>Main</ts:StepGroup>
+							<ts:BlockLevel value='1'/>
+							<ts:Index value='4'/>
+							<ts:TotalTime value='0.500526'/>
+						</ts:TSStepProperties>
+					</tr:Extension>
+					<tr:ActionOutcome value = "Done" />
+				</tr:SessionAction>
+				<tr:Test ID = "524" name = "Ensure IDLE state" startDateTime = "2019-07-02T11:41:15.236"  endDateTime = "2019-07-02T11:41:15.244"  testReferenceID="ID#:ptHcbv1a6RGHa/DVv0U+SB">
+					<tr:Extension>
+						<ts:TSStepProperties>
+							<ts:StepType>StringValueTest</ts:StepType>
+							<ts:StepGroup>Main</ts:StepGroup>
+							<ts:BlockLevel value='1'/>
+							<ts:Index value='5'/>
+							<ts:TotalTime value='0.0073818'/>
+							<ts:ModuleTime value='0.0070298'/>
+						</ts:TSStepProperties>
+					</tr:Extension>
+					<tr:Outcome value = "Passed" />
+					<tr:TestResult ID = "tr-5e9185d9-9ce8-11e9-87b1-f0d5bf453e49" name = "String">
+						<tr:TestData>
+							<c:Datum xsi:type="ts:TS_string" flags = "0x2400">
+								<c:Value>01</c:Value>
+							</c:Datum>
+						</tr:TestData>
+						<tr:TestLimits>
+							<tr:Limits>
+								<c:Expected comparator = "CIEQ">
+									<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+										<c:Value>01</c:Value>
+									</c:Datum>
+								</c:Expected>
+							</tr:Limits>
+						</tr:TestLimits>
+					</tr:TestResult>
+				</tr:Test>
+				<tr:SessionAction ID = "525" name = "End" startDateTime = "2019-07-02T11:41:15.246"  endDateTime = "2019-07-02T11:41:15.246"  testReferenceID="ID#:p9Hcbv1a6RGHa/DVv0U+SB">
+					<tr:Data>
+						<c:Collection>
+							<c:Item name = "ReportText">
+								<c:Datum xsi:type="ts:TS_string" flags = "0x400000">
+									<c:Value>(If)</c:Value>
+								</c:Datum>
+							</c:Item>
+						</c:Collection>
+					</tr:Data>
+					<tr:Extension>
+						<ts:TSStepProperties>
+							<ts:StepType>NI_Flow_End</ts:StepType>
+							<ts:StepGroup>Main</ts:StepGroup>
+							<ts:BlockLevel value='0'/>
+							<ts:Index value='6'/>
+							<ts:TotalTime value='9.94e-05'/>
+						</ts:TSStepProperties>
+					</tr:Extension>
+					<tr:ActionOutcome value = "Done" />
+				</tr:SessionAction>
+			</tr:TestGroup>
+			<tr:TestGroup name="D:\Automation\Product Specific\Clothes Care\TLMB 2019\Sequences\TLMB_Main_2.seq#Process - Knob Wiggle" ID="526" callerName='Awaken unit to STANDBY with knob turn' testReferenceID="ID#:kPJY4Qdb6RGHa/DVv0U+SB" startDateTime = "2019-07-02T11:41:15.292"  endDateTime = "2019-07-02T11:41:18.109" >
+				<tr:Extension>
+					<ts:TSStepProperties>
+						<ts:StepType>SequenceCall</ts:StepType>
+						<ts:StepGroup>Main</ts:StepGroup>
+						<ts:BlockLevel value='0'/>
+						<ts:Index value='6'/>
+						<ts:TotalTime value='2.8163'/>
+						<ts:ModuleTime value='2.81614'/>
+					</ts:TSStepProperties>
+				</tr:Extension>
+				<tr:Outcome value="Passed" />
+				<tr:SessionAction ID = "527" name = "Select Cycle 1" startDateTime = "2019-07-02T11:41:15.319"  endDateTime = "2019-07-02T11:41:16.333"  testReferenceID="ID#:0ZbYyghb6RGHa/DVv0U+SB">
+					<tr:Extension>
+						<ts:TSStepProperties>
+							<ts:StepType>Action</ts:StepType>
+							<ts:StepGroup>Main</ts:StepGroup>
+							<ts:BlockLevel value='0'/>
+							<ts:Index value='0'/>
+							<ts:TotalTime value='1.01426'/>
+							<ts:ModuleTime value='1.014'/>
+						</ts:TSStepProperties>
+					</tr:Extension>
+					<tr:ActionOutcome value = "Done" />
+				</tr:SessionAction>
+				<tr:SessionAction ID = "528" name = "Wait" startDateTime = "2019-07-02T11:41:16.335"  endDateTime = "2019-07-02T11:41:16.587"  testReferenceID="ID#:0pbYyghb6RGHa/DVv0U+SB">
+					<tr:Data>
+						<c:Collection>
+							<c:Item name = "Time to Wait">
+								<c:Datum value = "0.25" xsi:type="ts:TS_double" flags = "0x2000"/>
+							</c:Item>
+						</c:Collection>
+					</tr:Data>
+					<tr:Extension>
+						<ts:TSStepProperties>
+							<ts:StepType>NI_Wait</ts:StepType>
+							<ts:StepGroup>Main</ts:StepGroup>
+							<ts:BlockLevel value='0'/>
+							<ts:Index value='1'/>
+							<ts:TotalTime value='0.251371'/>
+						</ts:TSStepProperties>
+					</tr:Extension>
+					<tr:ActionOutcome value = "Done" />
+				</tr:SessionAction>
+				<tr:SessionAction ID = "529" name = "Select Cycle 0" startDateTime = "2019-07-02T11:41:16.589"  endDateTime = "2019-07-02T11:41:17.603"  testReferenceID="ID#:05bYyghb6RGHa/DVv0U+SB">
+					<tr:Extension>
+						<ts:TSStepProperties>
+							<ts:StepType>Action</ts:StepType>
+							<ts:StepGroup>Main</ts:StepGroup>
+							<ts:BlockLevel value='0'/>
+							<ts:Index value='2'/>
+							<ts:TotalTime value='1.01402'/>
+							<ts:ModuleTime value='1.01365'/>
+						</ts:TSStepProperties>
+					</tr:Extension>
+					<tr:ActionOutcome value = "Done" />
+				</tr:SessionAction>
+				<tr:SessionAction ID = "530" name = "Wait" startDateTime = "2019-07-02T11:41:17.605"  endDateTime = "2019-07-02T11:41:18.106"  testReferenceID="ID#:1JbYyghb6RGHa/DVv0U+SB">
+					<tr:Data>
+						<c:Collection>
+							<c:Item name = "Time to Wait">
+								<c:Datum value = "0.5" xsi:type="ts:TS_double" flags = "0x2000"/>
+							</c:Item>
+						</c:Collection>
+					</tr:Data>
+					<tr:Extension>
+						<ts:TSStepProperties>
+							<ts:StepType>NI_Wait</ts:StepType>
+							<ts:StepGroup>Main</ts:StepGroup>
+							<ts:BlockLevel value='0'/>
+							<ts:Index value='3'/>
+							<ts:TotalTime value='0.500583'/>
+						</ts:TSStepProperties>
+					</tr:Extension>
+					<tr:ActionOutcome value = "Done" />
+				</tr:SessionAction>
+			</tr:TestGroup>
+			<tr:Test ID = "531" name = "Ensure STANDBY state" startDateTime = "2019-07-02T11:41:18.156"  endDateTime = "2019-07-02T11:41:18.164"  testReferenceID="ID#:kfJY4Qdb6RGHa/DVv0U+SB">
+				<tr:Extension>
+					<ts:TSStepProperties>
+						<ts:StepType>StringValueTest</ts:StepType>
+						<ts:StepGroup>Main</ts:StepGroup>
+						<ts:BlockLevel value='0'/>
+						<ts:Index value='7'/>
+						<ts:TotalTime value='0.0083601'/>
+						<ts:ModuleTime value='0.0079377'/>
+					</ts:TSStepProperties>
+				</tr:Extension>
+				<tr:Outcome value = "Passed" />
+				<tr:TestResult ID = "tr-5e9185da-9ce8-11e9-87b1-f0d5bf453e49" name = "String">
+					<tr:TestData>
+						<c:Datum xsi:type="ts:TS_string" flags = "0x2400">
+							<c:Value>02</c:Value>
+						</c:Datum>
+					</tr:TestData>
+					<tr:TestLimits>
+						<tr:Limits>
+							<c:Expected comparator = "CIEQ">
+								<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+									<c:Value>02</c:Value>
+								</c:Datum>
+							</c:Expected>
+						</tr:Limits>
+					</tr:TestLimits>
+				</tr:TestResult>
+			</tr:Test>
+			<tr:SessionAction ID = "532" name = "Press START key" startDateTime = "2019-07-02T11:41:18.176"  endDateTime = "2019-07-02T11:41:18.762"  testReferenceID="ID#:kvJY4Qdb6RGHa/DVv0U+SB">
+				<tr:Extension>
+					<ts:TSStepProperties>
+						<ts:StepType>Action</ts:StepType>
+						<ts:StepGroup>Main</ts:StepGroup>
+						<ts:BlockLevel value='0'/>
+						<ts:Index value='8'/>
+						<ts:TotalTime value='0.586415'/>
+						<ts:ModuleTime value='0.586182'/>
+					</ts:TSStepProperties>
+				</tr:Extension>
+				<tr:ActionOutcome value = "Done" />
+			</tr:SessionAction>
+			<tr:SessionAction ID = "533" name = "Wait" startDateTime = "2019-07-02T11:41:18.764"  endDateTime = "2019-07-02T11:41:23.765"  testReferenceID="ID#:k/JY4Qdb6RGHa/DVv0U+SB">
+				<tr:Extension>
+					<ts:TSStepProperties>
+						<ts:StepType>NI_Wait</ts:StepType>
+						<ts:StepGroup>Main</ts:StepGroup>
+						<ts:BlockLevel value='0'/>
+						<ts:Index value='9'/>
+						<ts:TotalTime value='5.00053'/>
+					</ts:TSStepProperties>
+				</tr:Extension>
+				<tr:ActionOutcome value = "Done" />
+			</tr:SessionAction>
+			<tr:Test ID = "534" name = "Ensure RUN state" startDateTime = "2019-07-02T11:41:23.767"  endDateTime = "2019-07-02T11:41:23.776"  testReferenceID="ID#:lPJY4Qdb6RGHa/DVv0U+SB">
+				<tr:Extension>
+					<ts:TSStepProperties>
+						<ts:StepType>StringValueTest</ts:StepType>
+						<ts:StepGroup>Main</ts:StepGroup>
+						<ts:BlockLevel value='0'/>
+						<ts:Index value='10'/>
+						<ts:TotalTime value='0.0084493'/>
+						<ts:ModuleTime value='0.0079859'/>
+					</ts:TSStepProperties>
+				</tr:Extension>
+				<tr:Outcome value = "Passed" />
+				<tr:TestResult ID = "tr-5e9185db-9ce8-11e9-87b1-f0d5bf453e49" name = "String">
+					<tr:TestData>
+						<c:Datum xsi:type="ts:TS_string" flags = "0x2400">
+							<c:Value>08</c:Value>
+						</c:Datum>
+					</tr:TestData>
+					<tr:TestLimits>
+						<tr:Limits>
+							<c:Expected comparator = "CIEQ">
+								<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+									<c:Value>08</c:Value>
+								</c:Datum>
+							</c:Expected>
+						</tr:Limits>
+					</tr:TestLimits>
+				</tr:TestResult>
+			</tr:Test>
+			<tr:SessionAction ID = "535" name = "Wait for child safety" startDateTime = "2019-07-02T11:41:23.778"  endDateTime = "2019-07-02T11:42:23.782"  testReferenceID="ID#:lfJY4Qdb6RGHa/DVv0U+SB">
+				<tr:Extension>
+					<ts:TSStepProperties>
+						<ts:StepType>Action</ts:StepType>
+						<ts:StepGroup>Main</ts:StepGroup>
+						<ts:BlockLevel value='0'/>
+						<ts:Index value='11'/>
+						<ts:TotalTime value='60.0034'/>
+						<ts:ModuleTime value='60.003'/>
+					</ts:TSStepProperties>
+				</tr:Extension>
+				<tr:ActionOutcome value = "Done" />
+			</tr:SessionAction>
+			<tr:TestGroup name="D:\Automation\Product Specific\Clothes Care\TLMB 2019\Sequences\TLMB_Main_2.seq#Process - Go to Idle" ID="536" callerName='Press POWER key to send to IDLE' testReferenceID="ID#:lvJY4Qdb6RGHa/DVv0U+SB" startDateTime = "2019-07-02T11:42:23.783"  endDateTime = "2019-07-02T11:42:25.024" >
+				<tr:Extension>
+					<ts:TSStepProperties>
+						<ts:StepType>SequenceCall</ts:StepType>
+						<ts:StepGroup>Main</ts:StepGroup>
+						<ts:BlockLevel value='0'/>
+						<ts:Index value='12'/>
+						<ts:TotalTime value='1.24131'/>
+						<ts:ModuleTime value='1.24121'/>
+					</ts:TSStepProperties>
+				</tr:Extension>
+				<tr:Outcome value="Passed" />
+				<tr:SessionAction ID = "537" name = "Check MC state" startDateTime = "2019-07-02T11:42:23.797"  endDateTime = "2019-07-02T11:42:23.806"  testReferenceID="ID#:oNHcbv1a6RGHa/DVv0U+SB">
+					<tr:Extension>
+						<ts:TSStepProperties>
+							<ts:StepType>Action</ts:StepType>
+							<ts:StepGroup>Setup</ts:StepGroup>
+							<ts:BlockLevel value='0'/>
+							<ts:Index value='0'/>
+							<ts:TotalTime value='0.0086093'/>
+							<ts:ModuleTime value='0.0068041'/>
+						</ts:TSStepProperties>
+					</tr:Extension>
+					<tr:ActionOutcome value = "Done" />
+				</tr:SessionAction>
+				<tr:SessionAction ID = "538" name = "If" startDateTime = "2019-07-02T11:42:23.817"  endDateTime = "2019-07-02T11:42:23.817"  testReferenceID="ID#:odHcbv1a6RGHa/DVv0U+SB">
+					<tr:Data>
+						<c:Collection>
+							<c:Item name = "ReportText">
+								<c:Datum xsi:type="ts:TS_string" flags = "0x400000">
+									<c:Value>{False}</c:Value>
+								</c:Datum>
+							</c:Item>
+						</c:Collection>
+					</tr:Data>
+					<tr:Extension>
+						<ts:TSStepProperties>
+							<ts:StepType>NI_Flow_If</ts:StepType>
+							<ts:StepGroup>Main</ts:StepGroup>
+							<ts:BlockLevel value='0'/>
+							<ts:Index value='0'/>
+							<ts:TotalTime value='8.92e-05'/>
+						</ts:TSStepProperties>
+					</tr:Extension>
+					<tr:ActionOutcome value = "Done" />
+				</tr:SessionAction>
+				<tr:SessionAction ID = "539" name = "Else If" startDateTime = "2019-07-02T11:42:23.819"  endDateTime = "2019-07-02T11:42:23.819"  testReferenceID="ID#:o9Hcbv1a6RGHa/DVv0U+SB">
+					<tr:Data>
+						<c:Collection>
+							<c:Item name = "ReportText">
+								<c:Datum xsi:type="ts:TS_string" flags = "0x400000">
+									<c:Value>{True}</c:Value>
+								</c:Datum>
+							</c:Item>
+						</c:Collection>
+					</tr:Data>
+					<tr:Extension>
+						<ts:TSStepProperties>
+							<ts:StepType>NI_Flow_ElseIf</ts:StepType>
+							<ts:StepGroup>Main</ts:StepGroup>
+							<ts:BlockLevel value='0'/>
+							<ts:Index value='2'/>
+							<ts:TotalTime value='9.77e-05'/>
+						</ts:TSStepProperties>
+					</tr:Extension>
+					<tr:ActionOutcome value = "Done" />
+				</tr:SessionAction>
+				<tr:SessionAction ID = "540" name = "Press POWER key to send unit to IDLE" startDateTime = "2019-07-02T11:42:23.822"  endDateTime = "2019-07-02T11:42:24.505"  testReferenceID="ID#:pNHcbv1a6RGHa/DVv0U+SB">
+					<tr:Extension>
+						<ts:TSStepProperties>
+							<ts:StepType>Action</ts:StepType>
+							<ts:StepGroup>Main</ts:StepGroup>
+							<ts:BlockLevel value='1'/>
+							<ts:Index value='3'/>
+							<ts:TotalTime value='0.682334'/>
+							<ts:ModuleTime value='0.682056'/>
+						</ts:TSStepProperties>
+					</tr:Extension>
+					<tr:ActionOutcome value = "Done" />
+				</tr:SessionAction>
+				<tr:SessionAction ID = "541" name = "Wait" startDateTime = "2019-07-02T11:42:24.507"  endDateTime = "2019-07-02T11:42:25.007"  testReferenceID="ID#:pdHcbv1a6RGHa/DVv0U+SB">
+					<tr:Extension>
+						<ts:TSStepProperties>
+							<ts:StepType>NI_Wait</ts:StepType>
+							<ts:StepGroup>Main</ts:StepGroup>
+							<ts:BlockLevel value='1'/>
+							<ts:Index value='4'/>
+							<ts:TotalTime value='0.500506'/>
+						</ts:TSStepProperties>
+					</tr:Extension>
+					<tr:ActionOutcome value = "Done" />
+				</tr:SessionAction>
+				<tr:Test ID = "542" name = "Ensure IDLE state" startDateTime = "2019-07-02T11:42:25.009"  endDateTime = "2019-07-02T11:42:25.020"  testReferenceID="ID#:ptHcbv1a6RGHa/DVv0U+SB">
+					<tr:Extension>
+						<ts:TSStepProperties>
+							<ts:StepType>StringValueTest</ts:StepType>
+							<ts:StepGroup>Main</ts:StepGroup>
+							<ts:BlockLevel value='1'/>
+							<ts:Index value='5'/>
+							<ts:TotalTime value='0.0101713'/>
+							<ts:ModuleTime value='0.0096055'/>
+						</ts:TSStepProperties>
+					</tr:Extension>
+					<tr:Outcome value = "Passed" />
+					<tr:TestResult ID = "tr-5e9185dc-9ce8-11e9-87b1-f0d5bf453e49" name = "String">
+						<tr:TestData>
+							<c:Datum xsi:type="ts:TS_string" flags = "0x2400">
+								<c:Value>01</c:Value>
+							</c:Datum>
+						</tr:TestData>
+						<tr:TestLimits>
+							<tr:Limits>
+								<c:Expected comparator = "CIEQ">
+									<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+										<c:Value>01</c:Value>
+									</c:Datum>
+								</c:Expected>
+							</tr:Limits>
+						</tr:TestLimits>
+					</tr:TestResult>
+				</tr:Test>
+				<tr:SessionAction ID = "543" name = "End" startDateTime = "2019-07-02T11:42:25.022"  endDateTime = "2019-07-02T11:42:25.022"  testReferenceID="ID#:p9Hcbv1a6RGHa/DVv0U+SB">
+					<tr:Data>
+						<c:Collection>
+							<c:Item name = "ReportText">
+								<c:Datum xsi:type="ts:TS_string" flags = "0x400000">
+									<c:Value>(If)</c:Value>
+								</c:Datum>
+							</c:Item>
+						</c:Collection>
+					</tr:Data>
+					<tr:Extension>
+						<ts:TSStepProperties>
+							<ts:StepType>NI_Flow_End</ts:StepType>
+							<ts:StepGroup>Main</ts:StepGroup>
+							<ts:BlockLevel value='0'/>
+							<ts:Index value='6'/>
+							<ts:TotalTime value='8.96e-05'/>
+						</ts:TSStepProperties>
+					</tr:Extension>
+					<tr:ActionOutcome value = "Done" />
+				</tr:SessionAction>
+			</tr:TestGroup>
+		</tr:TestGroup>
+		<tr:SessionAction ID = "544" name = "Exit Test Mode for Washer" startDateTime = "2019-07-02T11:42:25.089"  endDateTime = "2019-07-02T11:42:25.101"  testReferenceID="ID#:JvraRsBM6RGHaPDVv0U+SB">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>Action</ts:StepType>
+					<ts:StepGroup>Cleanup</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='0'/>
+					<ts:TotalTime value='0.0123208'/>
+					<ts:ModuleTime value='0.012131'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "545" name = "Shutdown GEA3" startDateTime = "2019-07-02T11:42:25.103"  endDateTime = "2019-07-02T11:42:25.207"  testReferenceID="ID#:snbXcC9M6RGHaPDVv0U+SB">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>Action</ts:StepType>
+					<ts:StepGroup>Cleanup</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='1'/>
+					<ts:TotalTime value='0.103297'/>
+					<ts:ModuleTime value='0.103096'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+	</tr:ResultSet>
+	<tr:TestProgram>
+		<c:SerialNumber>
+			MEXTYPID6434R7X
+		</c:SerialNumber>
+		<tr:Configuration>
+			<c:Collection xsi:type="ts:TS_Collection" flags = "0x0000">
+				<c:Item name = "IncludeTSExtensionElements">
+					<c:Datum value = "true" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "IncludeAttributes">
+					<c:Datum value = "false" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "IncludeLimits">
+					<c:Datum value = "true" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "IncludeMeasurements">
+					<c:Datum value = "true" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "IncludeArrayMeasurement">
+					<c:Datum value = "2" xsi:type="ts:TS_double" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "ArrayMeasurementFilter">
+					<c:Datum value = "3" xsi:type="ts:TS_double" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "ArrayMeasurementMax">
+					<c:Datum value = "100" xsi:type="ts:TS_double" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "IncludeTimes">
+					<c:Datum value = "true" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "Format">
+					<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+						<c:Value>xml</c:Value>
+					</c:Datum>
+				</c:Item>
+				<c:Item name = "NumericFormat">
+					<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+						<c:Value>%$.13g</c:Value>
+					</c:Datum>
+				</c:Item>
+				<c:Item name = "ResultFilterExpression">
+					<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+						<c:Value>True</c:Value>
+					</c:Datum>
+				</c:Item>
+				<c:Item name = "GeneratePath">
+					<c:Datum value = "true" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "UseTemporaryFile">
+					<c:Datum value = "false" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "UseSequenceFileNameAsPrefix">
+					<c:Datum value = "true" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "AddTimeAndDateToFileName">
+					<c:Datum value = "true" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "NewFileNameForEachUUT">
+					<c:Datum value = "false" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "ForceFileNameToBeUnique">
+					<c:Datum value = "true" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "AppendToFileIfItExists">
+					<c:Datum value = "false" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "DirectoryType">
+					<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+						<c:Value>SequenceFileDirectory</c:Value>
+					</c:Datum>
+				</c:Item>
+				<c:Item name = "Directory">
+					<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+						<c:Value></c:Value>
+					</c:Datum>
+				</c:Item>
+				<c:Item name = "BaseName">
+					<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+						<c:Value>Report</c:Value>
+					</c:Datum>
+				</c:Item>
+				<c:Item name = "UseFormatForExtension">
+					<c:Datum value = "true" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "Extension">
+					<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+						<c:Value></c:Value>
+					</c:Datum>
+				</c:Item>
+				<c:Item name = "ReportFilePath">
+					<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+						<c:Value></c:Value>
+					</c:Datum>
+				</c:Item>
+				<c:Item name = "DisableReportGeneration">
+					<c:Datum value = "false" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "IncludeStepResults">
+					<c:Datum value = "true" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "BodyGenerator">
+					<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+						<c:Value>DLL</c:Value>
+					</c:Datum>
+				</c:Item>
+				<c:Item name = "Colors">
+					<c:Collection xsi:type="ts:TS_Collection" flags = "0x0000">
+						<c:Item name = "LabelBg">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value>#FFFFFF</c:Value>
+							</c:Datum>
+						</c:Item>
+						<c:Item name = "ValueBg">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value>#32FFFF</c:Value>
+							</c:Datum>
+						</c:Item>
+						<c:Item name = "UUTSeparator">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value>#0000E0</c:Value>
+							</c:Datum>
+						</c:Item>
+						<c:Item name = "HeaderSeparator">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value>#8000CC</c:Value>
+							</c:Datum>
+						</c:Item>
+						<c:Item name = "TableBorder">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value>#000000</c:Value>
+							</c:Datum>
+						</c:Item>
+						<c:Item name = "MainBg">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value>#00C4C4</c:Value>
+							</c:Datum>
+						</c:Item>
+						<c:Item name = "SetupBg">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value>#FF8000</c:Value>
+							</c:Datum>
+						</c:Item>
+						<c:Item name = "CleanupBg">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value>#ADD8E6</c:Value>
+							</c:Datum>
+						</c:Item>
+						<c:Item name = "ReportTextBg">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value>#FF32CC</c:Value>
+							</c:Datum>
+						</c:Item>
+						<c:Item name = "Terminated">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value>#000080</c:Value>
+							</c:Datum>
+						</c:Item>
+						<c:Item name = "Failed">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value>#FF0000</c:Value>
+							</c:Datum>
+						</c:Item>
+						<c:Item name = "Error">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value>#FF0000</c:Value>
+							</c:Datum>
+						</c:Item>
+						<c:Item name = "Passed">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value>#008000</c:Value>
+							</c:Datum>
+						</c:Item>
+						<c:Item name = "Skipped">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value>#B98028</c:Value>
+							</c:Datum>
+						</c:Item>
+						<c:Item name = "Done">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value>#008000</c:Value>
+							</c:Datum>
+						</c:Item>
+						<c:Item name = "Running">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value>#FFCC33</c:Value>
+							</c:Datum>
+						</c:Item>
+						<c:Item name = "TerminatedBg">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value>#0000FF</c:Value>
+							</c:Datum>
+						</c:Item>
+						<c:Item name = "FailedBg">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value>#FF0000</c:Value>
+							</c:Datum>
+						</c:Item>
+						<c:Item name = "ErrorBg">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value>#FF0000</c:Value>
+							</c:Datum>
+						</c:Item>
+						<c:Item name = "PassedBg">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value>#00FF00</c:Value>
+							</c:Datum>
+						</c:Item>
+						<c:Item name = "SkippedBg">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value>#FFFF00</c:Value>
+							</c:Datum>
+						</c:Item>
+						<c:Item name = "DoneBg">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value>#00FFCC</c:Value>
+							</c:Datum>
+						</c:Item>
+						<c:Item name = "RunningBg">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value>#FFCC33</c:Value>
+							</c:Datum>
+						</c:Item>
+						<c:Item name = "FailureStackLabelBg">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value>#FF2020</c:Value>
+							</c:Datum>
+						</c:Item>
+						<c:Item name = "FailureStackValueBg">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value>#D0D0D0</c:Value>
+							</c:Datum>
+						</c:Item>
+						<c:Item name = "BatchHeadingBg">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value>#00C4C4</c:Value>
+							</c:Datum>
+						</c:Item>
+					</c:Collection>
+				</c:Item>
+				<c:Item name = "DateAndTimeFormat">
+					<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+						<c:Value>TimeFirst</c:Value>
+					</c:Datum>
+				</c:Item>
+				<c:Item name = "NewFileNameForEachBatch">
+					<c:Datum value = "false" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "NewBatchFileNameForEachBatch">
+					<c:Datum value = "false" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "NewFileNameForEachTestSocket">
+					<c:Datum value = "false" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "StoreUUTReportWithBatchReport">
+					<c:Datum value = "true" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "BatchBaseName">
+					<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+						<c:Value>BatchReport</c:Value>
+					</c:Datum>
+				</c:Item>
+				<c:Item name = "LabelSize">
+					<c:Datum value = "26" xsi:type="ts:TS_double" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "RelStylesheetPath">
+					<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+						<c:Value>tr5_horizontal.xsl</c:Value>
+					</c:Datum>
+				</c:Item>
+				<c:Item name = "StylesheetPath">
+					<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+						<c:Value>C:\Program Files\National Instruments\TestStand 2019\Components\Models\TestStandModels\ATML\StyleSheets\tr5_horizontal.xsl</c:Value>
+					</c:Datum>
+				</c:Item>
+				<c:Item name = "StylesheetMRU">
+					<c:IndexedArray dimensions="[5]" lowerBounds="[0]" upperBounds="[4]" xsi:type="ts:TS_stringArray" flags = "0x0000">
+						<ts:Element position ="[0]">
+							<c:Value>horizontal.xsl</c:Value>
+						</ts:Element>
+						<ts:Element position ="[1]">
+							<c:Value>report.xsl</c:Value>
+						</ts:Element>
+						<ts:Element position ="[2]">
+							<c:Value>expand.xsl</c:Value>
+						</ts:Element>
+						<ts:Element position ="[3]">
+							<c:Value></c:Value>
+						</ts:Element>
+						<ts:Element position ="[4]">
+							<c:Value></c:Value>
+						</ts:Element>
+					</c:IndexedArray>
+				</c:Item>
+				<c:Item name = "ATMLStylesheetMRU">
+					<c:IndexedArray dimensions="[3]" lowerBounds="[0]" upperBounds="[2]" xsi:type="ts:TS_stringArray" flags = "0x0000">
+						<ts:Element position ="[0]">
+							<c:Value>TR_horizontal.xsl</c:Value>
+						</ts:Element>
+						<ts:Element position ="[1]">
+							<c:Value>trml.xsl</c:Value>
+						</ts:Element>
+						<ts:Element position ="[2]">
+							<c:Value></c:Value>
+						</ts:Element>
+					</c:IndexedArray>
+				</c:Item>
+				<c:Item name = "StoreStylesheetAbsolutePath">
+					<c:Datum value = "true" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "ProcessOnTheFly">
+					<c:Datum value = "false" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "PurgeOnTheFlyResults">
+					<c:Datum value = "false" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "GeneratePDFReport">
+					<c:Datum value = "false" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "IncludeStepResultComments">
+					<c:Datum value = "true" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "UseLocalizedDecimalPoint">
+					<c:Datum value = "false" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "ReportStyle">
+					<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+						<c:Value>atml5</c:Value>
+					</c:Datum>
+				</c:Item>
+				<c:Item name = "ReportFileSequentialModelExpression">
+					<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+						<c:Value>"$(ClientFileDir)\\$(ClientFileName)_Report[$(FileTime)][$(FileDate)]$(Unique).$(FileExtension)"</c:Value>
+					</c:Datum>
+				</c:Item>
+				<c:Item name = "ReportFileParallelModelExpression">
+					<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+						<c:Value>"$(ClientFileDir)\\$(ClientFileName)_Report[$(FileTime)][$(FileDate)]$(Unique).$(FileExtension)"</c:Value>
+					</c:Datum>
+				</c:Item>
+				<c:Item name = "ReportFileBatchModelExpression">
+					<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+						<c:Value>"$(ClientFileDir)\\$(ClientFileName)_BatchReport[$(FileTime)][$(FileDate)]$(Unique).$(FileExtension)"</c:Value>
+					</c:Datum>
+				</c:Item>
+				<c:Item name = "BatchFileBatchModelExpression">
+					<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+						<c:Value>"$(ClientFileDir)\\$(ClientFileName)_BatchReport[$(FileTime)][$(FileDate)]$(Unique).$(FileExtension)"</c:Value>
+					</c:Datum>
+				</c:Item>
+				<c:Item name = "NewFileNameForEachUUTStatus">
+					<c:Datum value = "false" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "ReportPathMacroListString">
+					<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+						<c:Value></c:Value>
+					</c:Datum>
+				</c:Item>
+				<c:Item name = "BatchReportPathMacroListString">
+					<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+						<c:Value></c:Value>
+					</c:Datum>
+				</c:Item>
+				<c:Item name = "CheckIfMacroListIsUnchanged">
+					<c:Datum value = "true" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "ATML5StylesheetMRU">
+					<c:IndexedArray dimensions="[5]" lowerBounds="[0]" upperBounds="[4]" xsi:type="ts:TS_stringArray" flags = "0x0000">
+						<ts:Element position ="[0]">
+							<c:Value>tr5_horizontal.xsl</c:Value>
+						</ts:Element>
+						<ts:Element position ="[1]">
+							<c:Value>tr5_report.xsl</c:Value>
+						</ts:Element>
+						<ts:Element position ="[2]">
+							<c:Value>tr5_expand.xsl</c:Value>
+						</ts:Element>
+						<ts:Element position ="[3]">
+							<c:Value></c:Value>
+						</ts:Element>
+						<ts:Element position ="[4]">
+							<c:Value></c:Value>
+						</ts:Element>
+					</c:IndexedArray>
+				</c:Item>
+				<c:Item name = "Atml_Rpt_Options">
+					<c:Collection xsi:type="ts:TS_Collection" flags = "0x0000">
+						<c:Item name = "AddReportText">
+							<c:Datum value = "true" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+						</c:Item>
+						<c:Item name = "ExtensionDLLAbsolutePath">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value></c:Value>
+							</c:Datum>
+						</c:Item>
+						<c:Item name = "TestResultsSchemaPath">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value></c:Value>
+							</c:Datum>
+						</c:Item>
+					</c:Collection>
+				</c:Item>
+				<c:Item name = "ATML6StylesheetMRU">
+					<c:IndexedArray dimensions="[5]" lowerBounds="[0]" upperBounds="[4]" xsi:type="ts:TS_stringArray" flags = "0x0000">
+						<ts:Element position ="[0]">
+							<c:Value>tr6_horizontal.xsl</c:Value>
+						</ts:Element>
+						<ts:Element position ="[1]">
+							<c:Value>tr6_report.xsl</c:Value>
+						</ts:Element>
+						<ts:Element position ="[2]">
+							<c:Value>tr6_expand.xsl</c:Value>
+						</ts:Element>
+						<ts:Element position ="[3]">
+							<c:Value></c:Value>
+						</ts:Element>
+						<ts:Element position ="[4]">
+							<c:Value></c:Value>
+						</ts:Element>
+					</c:IndexedArray>
+				</c:Item>
+			</c:Collection>
+		</tr:Configuration>
+	</tr:TestProgram>
+	<tr:TestStation>
+		<c:SerialNumber>MEXTYPID6434R7X</c:SerialNumber>
+	</tr:TestStation>
+	<tr:UUT>
+		<c:SerialNumber>NONE</c:SerialNumber>
+	</tr:UUT>
+	<tr:Extension>
+		<ts:TSResultSetProperties>
+			<ts:NumOfResults value = '96'/>
+		</ts:TSResultSetProperties>
+	</tr:Extension>
+</trc:TestResults>
+</trc:TestResultsCollection>

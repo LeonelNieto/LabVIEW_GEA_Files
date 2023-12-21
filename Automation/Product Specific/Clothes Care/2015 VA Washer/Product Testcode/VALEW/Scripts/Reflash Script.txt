@@ -1,0 +1,28 @@
+%%% Board Reflash 2.40 Script%%%
+%%% Derek Hibdon %%%
+%%% 12/9/15 %%%
+
+%%% Purpose %%%
+%%% To verify that correct firmware is flashed to the boards, and that hardware ID type, and personality are set correctly %%%
+
+%%% Setup %%%
+%%% Unit should be flashed via edge connection and FDT, and all data erased %%%
+
+
+#Test 1 - Check Bootloader Version Number
+READ[E4,23,DD,08 01:08 01 01 09 EC EC 09 EB 47 01 00 01 01 33 00 33 00 33 00 02 00 01 00 20 07 80 FE FF FF 23 D0 FF FF 00 00 00 02 00 C0 FF FF 7F FE FF FF 80 FF FF FF FF FF FF FF]-w 0.25 -c no; %CONFIRM BOOTLOADER VERSION EQUALS  1.0.1.1
+
+#Test 2 - Check Application Version Number
+ERDREAD[E4,23,0100(string:01 09 02 28)] -w 0.25 -c no; %CONFIRM APPLICATION VERSION EQUALS  1.9.2.40
+
+#Test 3 - Check Parametric Version Number
+ERDREAD[E4,23,F001(string:02 28 02 00)] -w 0.25 -c no; %CONFIRM PARAMETRIC VERSION EQUALS  2.40.2.0
+
+#Test 4 - Set Hardware ID Type
+ERDWRITE[E4,23,F018(string:01)]-w 0.25 -c no; % SET HARDWARE TYPE TO LE
+
+#Test 5 - Check Hardware ID Type
+ERDREAD[E4,23,F018(string:01)] -w 0.25 -c no; %CONFIRM HARDWARE ID TYPE LE
+
+#Test 6 - Check Personality
+ERDREAD[E4,23,F000(string:FF)] -w 0.25 -c no; %CONFIRM PERSONALITY IS UNKNOWN

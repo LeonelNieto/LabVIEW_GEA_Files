@@ -1,0 +1,13 @@
+App Version,Crit . Non Crit .,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Build Hash,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Build Number ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Parametric Version,Crit . Non Crit .,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+UI Version,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+UI Bootloader Version ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MC Bootloader Version ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Date,Time,.SS,MachineStatus,Personality,EnterConsumerErrorMode,ServiceModeState,WiFiCommissioningOption,WiFiCommissioningPresenterState,ServiceModeState,WiFiCommissioningOption,Rj45LockedAtLeastOnce,CommercialLaundryStatus,CommercialLaundryStatusExternal,RJ45WriteAccessActual,WriteAccessRequest,CommercialPaymentMethod,CommercialCoinPaymentStatusRequest,,,,,,,,,,,,,,,,,,,,,,,
+,,,2000,FF01,FF8F,37,F173,F17F,37,F173,FFF2,209F,209E,20CE,20CD,F218,F219,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+12/19/2023,16:21:53:.834,.834,IDLE,1,00,00,00,IDLE,00,00,UNLOCKED,FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF,00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00,UNLOCKED,REQUESTED,Coin,00
+12/19/2023,16:22:20:.041,.041,IDLE,1,00,00,00,IDLE,00,00,UNLOCKED,FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF,00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00,UNLOCKED,REQUESTED,Coin,00

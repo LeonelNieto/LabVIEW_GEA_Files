@@ -1,0 +1,20 @@
+Date,Time,HH:MM:SS,.SS,App Version,Build Hash,Parametric Version,Machine State,Drum Motor,HTR 1 / Inner / Top,HTR 2 / Outer / Bot,Steam Valve,Door Switch,Door Latch,Inlet Thermistor,Outlet Thermistor,Signal Volume,Drum Light
+,,,,,,,2000,F011,F011,F011,F011,F013,F014,F015,F016,F02B,F08E
+09/15/2021,16:16:40:.780,04:16:40 p. m.,.780,Crit 0.0 Non Crit 0.0,0,Crit 0.0 Non Crit 0.0,IDLE,OFF,OFF,OFF,OFF,Closed,Unlatched,76,76,Off,OFF
+09/15/2021,16:16:43:.609,04:16:43 p. m.,.609,Crit . Non Crit .,,Crit . Non Crit .
+09/15/2021,16:16:46:.456,04:16:46 p. m.,.456,Crit . Non Crit .,,Crit . Non Crit .
+09/15/2021,16:16:49:.791,04:16:49 p. m.,.791,Crit . Non Crit .,0,Crit . Non Crit .,IDLE,OFF,OFF,OFF,OFF,Closed,Unlatched,76,76,Off,OFF,IDLE,OFF,OFF,OFF,OFF,Closed,Unlatched,76,76,Off,OFF
+09/15/2021,16:16:53:.780,04:16:53 p. m.,.780,Crit 0.0 Non Crit 0.0,0,Crit 0.0 Non Crit 0.0,IDLE,OFF,OFF,OFF,OFF,Closed,Unlatched,76,76,Off,OFF
+09/15/2021,16:16:56:.783,04:16:56 p. m.,.783,Crit . Non Crit .,0,Crit . Non Crit .,IDLE,OFF,OFF,OFF,OFF,Closed,Unlatched,76,76,Off,OFF
+09/15/2021,16:16:59:.125,04:16:59 p. m.,.125,Crit . Non Crit .,,Crit . Non Crit .
+09/15/2021,16:17:01:.983,04:17:01 p. m.,.983,Crit . Non Crit .,,Crit . Non Crit .
+09/15/2021,16:17:04:.793,04:17:04 p. m.,.793,Crit . Non Crit .,0,Crit . Non Crit .,IDLE,OFF,OFF,OFF,OFF,Closed,Unlatched,76,76,Off,OFF
+09/15/2021,16:17:07:.373,04:17:07 p. m.,.373,Crit . Non Crit .,0,Crit . Non Crit .,IDLE,OFF,OFF,OFF,OFF,Closed,Unlatched,76,76,Off,OFF
+09/15/2021,16:17:11:.782,04:17:11 p. m.,.782,Crit 0.0 Non Crit 0.0,0,Crit 0.0 Non Crit 0.0,IDLE,OFF,OFF,OFF,OFF,Closed,Unlatched,76,76,Off,OFF
+09/15/2021,16:17:14:.278,04:17:14 p. m.,.278,Crit . Non Crit .,0,Crit . Non Crit .,IDLE,OFF,OFF,OFF,OFF,Closed,Unlatched,76,76,Off,OFF,IDLE,OFF,OFF,OFF,OFF,Closed,Unlatched,76,76,Off,OFF
+09/15/2021,16:17:18:.298,04:17:18 p. m.,.298,Crit . Non Crit .,,Crit . Non Crit .
+09/15/2021,16:17:20:.273,04:17:20 p. m.,.273,Crit . Non Crit .,0,Crit . Non Crit .,IDLE,OFF,OFF,OFF,OFF,Closed,Unlatched,76,76,Off,OFF,IDLE,OFF,OFF,OFF,OFF,Closed,Unlatched,76,76,Off,OFF
+09/15/2021,16:17:22:.281,04:17:22 p. m.,.281,Crit . Non Crit .,0,Crit . Non Crit .,IDLE,OFF,OFF,OFF,OFF,Closed,Unlatched,76,76,Off,OFF
+09/15/2021,16:17:26:.777,04:17:26 p. m.,.777,Crit 0.0 Non Crit 0.0,0,Crit 0.0 Non Crit 0.0,IDLE,OFF,OFF,OFF,OFF,Closed,Unlatched,76,76,Off,OFF
+09/15/2021,16:17:31:.119,04:17:31 p. m.,.119,Crit 0.0 Non Crit 0.0,,Crit 0.0 Non Crit 0.0
+09/15/2021,16:17:34:.774,04:17:34 p. m.,.774,Crit 0.0 Non Crit 0.0,0,Crit 0.0 Non Crit 0.0,IDLE,OFF,OFF,OFF,OFF,Closed,Unlatched,76,76,Off,OFF,IDLE,OFF,OFF,OFF,OFF,Closed,Unlatched,76,76,Off,OFF
